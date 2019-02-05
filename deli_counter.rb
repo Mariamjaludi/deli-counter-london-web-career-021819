@@ -7,7 +7,7 @@ def line(katz_deli)
     return true
   end
   string = "The line is currently: "
-  katz_deli.each_with_index do | x, i| string += "#{i + 1}. #{x} "; end
+  katz_deli.each_with_index do | x, i| string += "#{i + 1}. #{x}"; end
   puts string
 end
 
