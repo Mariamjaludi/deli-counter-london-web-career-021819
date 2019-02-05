@@ -6,8 +6,8 @@ def line(katz_deli)
     puts "The line is currently empty."
     return true
   end
-  string = "The line is currently: "
-  katz_deli.each_with_index do | x, i| string += "#{i + 1}. #{x}"; end
+  string = "The line is currently:"
+  katz_deli.each_with_index do | x, i| string += " #{i + 1}. #{x}"; end
   puts string
 end
 
